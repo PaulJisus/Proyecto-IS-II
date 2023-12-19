@@ -1,4 +1,4 @@
-from backend.models.usuario import UsuariosModel
+from models.usuario import UsuariosModel
 
 class PonenteModel(UsuariosModel):
     def __init__(self, id, nombre, apellido, correo):

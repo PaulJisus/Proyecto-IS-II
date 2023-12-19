@@ -1,10 +1,10 @@
 class Nombre:
-    def __init__(self, nombre_, apellido_):
-        self.nombre = nombre_
+    def __init__(self, nombres_, apellido_):
+        self.nombres = nombres_
         self.apellido = apellido_
 
     def full(self):
-        return "{} {}".format(self.nombre, self.apellido)
+        return "{} {}".format(self.nombres, self.apellido)
 
 class UsuariosModel:
     def __init__(self, id_, nombre_, apellido_, correo_):

@@ -1,4 +1,4 @@
-from backend.infrastructure.connection_pool import MySQLPool
+from infrastructure.connection_pool import MySQLPool
 
 # Clase Repositorio para la lectura y manipulacion en la BD
 class AsistenteRepository:
@@ -49,7 +49,6 @@ class AsistenteRepository:
         }
         # Necesario insertar primero en la tabla usuario
         # ya que tiene una llave foranea asociada
-        query = "INSERT INTO usuario(%(id)s, %(nombre)s, %(apellido)s, %(correo)s)"
         query = "insertarAsistente(%(id)s, %(nombre)s, %(apellido)s, %(correo)s)"
         self.mysql_pool.execute(query, params, commit=True)
         data = {'result : 1'}

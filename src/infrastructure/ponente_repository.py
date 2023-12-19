@@ -1,4 +1,4 @@
-from backend.infrastructure.connection_pool import MySQLPool
+from infrastructure.connection_pool import MySQLPool
 
 class PonenteRepository:
     def __init__(self):
@@ -39,13 +39,13 @@ class PonenteRepository:
             content = {}
         return data
 
-    def create(self, id, nombre, apellido, correo, numEventos, descripcion):
+    def create(self, id, nombre, apellido, correo, num_eventos, descripcion):
         params = {
             'id' : id,
             'nombre' : nombre,
             'apellido' : apellido,
             'correo' : correo,
-            'numEventos' : numEventos,
+            'numEventos' : num_eventos,
             'descripcion' : descripcion
         }
         query = "insertarPonente(%(id)s, %(nombre)s, %(apellido)s, %(correo)s, %(numEventos)s, %(descripcion)s)"

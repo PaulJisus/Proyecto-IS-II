@@ -1,5 +1,5 @@
-from backend.infrastructure.connection_pool import MySQLPool
-from backend.infrastructure.ponente_repository import PonenteRepository
+from infrastructure.connection_pool import MySQLPool
+from infrastructure.ponente_repository import PonenteRepository
 
 repo_ponente = PonenteRepository()
 # Clase Repositorio para la lectura y manipulacion en la BD

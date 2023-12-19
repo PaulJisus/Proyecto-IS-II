@@ -1,4 +1,4 @@
-from backend.infrastructure.connection_pool import MySQLPool
+from infrastructure.connection_pool import MySQLPool
 
 class TemaRepository:
     def __init__(self):
@@ -31,7 +31,7 @@ class TemaRepository:
             content = {}
         return data
 
-    def create(self, id, id_ponente, nombre, detalles, link):
+    def create(self, id, nombre):
         params = {
             'id' : id,
             'nombre' : nombre,

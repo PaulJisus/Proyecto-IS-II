@@ -1,0 +1,7 @@
+/.vscode
+backend/blueprints/__pycache__/
+backend/infrastructure/__pycache__/
+backend/models/__pycache__/
+.scannerwork/
+__pycache__/
+venv/

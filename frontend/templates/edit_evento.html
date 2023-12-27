@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Editando Evento</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static',filename='css/Evento.css') }}" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar  navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" style="background-color: #212529;">
+            <div class="container-fluid px-lg-5">
+                <a class="navbar-brand text-white" href="index.html">UNSA</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 text-white" href="home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 text-white" href="login.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 text-white" href="post.html">Sample Post</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 text-white" href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </nav>
+        
+        <form class="container py-lg-4" action="" method="post">
+            <h2 class="fw-bold" style="font-family: Times New Roman;">Editar un evento</h2>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre del evento</label>
+              <input id="evento_nombre" name="evento_nombre" type="form-text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Detalles</label>
+              <input id="evento_detalles" name="evento_detalles" type="text" class="form-control" id="exampleInputPassword1">
+              <div id="emailHelp" class="form-text">Explique en que consiste el evento y como se desarrollara</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Enlace</label>
+                <input id="evento_link" name="evento_link" type="text" class="form-control" id="exampleInputPassword1">
+              </div>
+            <button type="submit" class="btn btn-primary" >Submit</button>
+          </form>
+
+    </body>
+</html>

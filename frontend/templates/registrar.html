@@ -10,29 +10,29 @@
 
 </head>  
 <body>
- <form class="formulario">
+ <form class="formulario", method = "post">
     
     <h1>Registrate</h1>
      <div class="contenedor">
      
      <div class="input-contenedor">
         <i class="fas fa-user icon"></i>
-        <input type="text" placeholder="Nombres" required>
+        <input type="text" name = "nombre"placeholder="Nombre" required>
         </div>
          
         <div class="input-contenedor">
         <i class="fas fa-user icon"></i>
-        <input type="text" placeholder="Apellidos" required>    
+        <input type="text"  name ="apellidos" placeholder="Apellidos" required>    
         </div> 
 
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
-         <input type="text" placeholder="Correo Electronico" required> 
+         <input type="email" name = "email"placeholder="Correo Electronico" required> 
          </div>
          
          <div class="input-contenedor">
          <i class="fas fa-key icon"></i>
-         <input type="password" placeholder="Contraseña" required>
+         <input type="password"  name="password" placeholder="Contraseña" required>
          
          </div>
          <input type="submit" value="Registrate" class="button">

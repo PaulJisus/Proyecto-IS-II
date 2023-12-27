@@ -120,10 +120,6 @@ Para las pruebas funcionales se ha hecho uso de selenium
 
 ![alt text](Images/test/test_create_evento_codigo.png "Test funcional create evento")
 
-![alt text](Images/pruebafuncional.png "Test funcional login")
-
-![alt text](Images/pruebafuncional2.png "Test funcional login")
-
 Y el resultado seria  
 
 ![alt text](Images/test/test_create_evento.png "Test funcional create evento")

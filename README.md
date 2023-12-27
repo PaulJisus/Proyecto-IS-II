@@ -36,10 +36,6 @@ La pagina web presenta entre sus principales funcionalidades:
 
 ![alt text](Images/crear_evento_template.png "Crear evento")
 
-### - Ver nuevos eventos
-
-![alt text](Images/nuevos_eventos.png "Ver nuevos eventos")
-
   
 ## Github
 Cada integrante ha creado su propia rama con su nombre sobre la cual ha trabajado y se ha realizado integracion continua sobre la rama de **Desarrollo** en la cual se realizan las diferentes pruebas tanto unitarias, funcionales, de rendimiento, de seguridad y el analisis estatico.

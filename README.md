@@ -72,7 +72,7 @@ http://127.0.0.1:5000
 
 ## Pipeline en Jenkins
 Para realizar el procedimiento completo de integración continua es necesario trabajar con Jenkins. Por ello se ha creado un pipeline con el siguiente script
-![](https://live.staticflickr.com/65535/52594947084_80b4c8d511_b.jpg)
+![](Images/pipeline_jenkins.png "Pipeline Jenkins")
 
 
 ## Construcción automática

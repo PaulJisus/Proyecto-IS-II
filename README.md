@@ -89,13 +89,13 @@ En Python el tema de construcción automática no necesita de comandos específi
 ## Antes del Refactoring
 
 ## Previsualización del análisis de Sonar Scanner
-![](https://live.staticflickr.com/65535/52594267137_3f144b21a3_c.jpg)
+![](Images/localhost_9000_dashboard_id=Proyecto_Final_IS_II_1.0(iPad Air).png "Sonar")
 ## Vulnerabilidades
-![](https://live.staticflickr.com/65535/52595272258_6e81ae3c25_c.jpg)
+![](Images/Security_Vulnerabilities.png "Vulnerabilities")
 ## Code Smells
-![](https://live.staticflickr.com/65535/52595175725_83504e4f74_c.jpg)
+![](Images/Code_Smells.png "Code Smells")
 ## Bugs
-![](https://live.staticflickr.com/65535/52595175745_415ef6cc31_c.jpg)
+![](Images/Bugs.png "Bugs")
 
 ## Después del Refactoring
 

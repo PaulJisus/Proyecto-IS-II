@@ -1,14 +1,7 @@
 # pip install mysql-connector-python
 import time
 import mysql.connector.pooling
-
-dbconfig = {
-    "host":"127.0.0.1",
-    "port":"3306",
-    "user":"root",
-    "password": "moises123", #Aqui cada uno coloque su contraseña 
-    "database": "TIF",
-}
+from backend.infrastructure.config import dbconfig
 
 class MySQLPool(object):
     """
@@ -90,7 +83,6 @@ class MySQLPool(object):
             res = cursor.fetchall()
             self.close(conn, cursor)
             return res
-
 
 if __name__ == "__main__":
     mysql_pool = MySQLPool()
